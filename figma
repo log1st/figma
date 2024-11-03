@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export FIGMA_PWD=$PWD
+export FIGMA_ROOT=$1
+export ICONS_ROOT=$2
+bun run --cwd=/Users/arenda5000klient/projects/figma-plugin dev
